@@ -1,0 +1,58 @@
+@font-face{
+    font-family:valorant;
+    src:url(../fonts/Valorant Font.ttf);
+}
+@font-face{
+    font-family:ReturnofGanon;
+    src:url(../fonts/ReturnofGanon.ttf);
+}
+@font-face{
+    font-family:American Captain;
+    src:url(../fonts/American Captain.otf);
+}
+@font-face{
+    font-family:Wanted;
+    src:url(../fonts/Wanted M54.ttf);
+}
+@font-face{
+    font-family:HyliaSerifBeta-Regular;
+    src:url(../fonts/HyliaSerifBeta-Regular.otf);
+}
+@font-face{
+    font-family:Seagram tfb;
+    src:url(../fonts/Seagram tfb.ttf);
+}
+@font-face{
+    font-family:CELTG;
+    src:url(fonts/CELTG.TTF);
+}
+
+@font-face{
+    font-family:gw;
+    src:url(/fonts/gw.TTF);
+}
+
+
+/*-------------------------------------------------*/
+
+a,b{
+    font-family: valorant;
+
+
+}
+p{
+    font-family: valorant;
+}
+.titulo{
+    font-family: gw;
+
+}
+.descripcion{
+    font-family:gw;
+
+}
+
+button{
+    font-family:gw;
+
+}

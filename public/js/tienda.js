@@ -315,66 +315,6 @@
  document.getElementById("email2").className = "textBien";
  }
 
- //Comparacion email 1 y 2
- if (vEmail1 != vEmail2){
- todoBien=false;
- document.getElementById("email2").className = "textMal";
- }
-
-
- //Nombre Via:
- var vViaNombre = document.getElementById("viaNombre").value;
- if( vViaNombre == null || vViaNombre.length == 0 || /^\s+$/.test(vViaNombre) || !isNaN(vViaNombre)) {
- todoBien=false;
- document.getElementById("viaNombre").className = "textMal";
- }
- else{
- document.getElementById("viaNombre").className = "textBien";
- }
-
-
- //Via Numero:
- var vViaNumero = document.getElementById("viaNumero").value;
- if( vViaNumero=="" || isNaN(vViaNumero) ) {
- todoBien=false;
- document.getElementById("viaNumero").className = "textMal";
- }
- else{
- document.getElementById("viaNumero").className = "textBien";
- }
-
-
- //Localidad:
- var vLocalidad = document.getElementById("localidad").value;
- if( vLocalidad == null || vLocalidad.length == 0 || /^\s+$/.test(vLocalidad) || !isNaN(vLocalidad)) {
- todoBien=false;
- document.getElementById("localidad").className = "textMal";
- }
- else{
- document.getElementById("localidad").className = "textBien";
- }
-
-
- //Codigo Postal:
- var vCodigoPostal = document.getElementById("codigoPostal").value;
- if( vCodigoPostal.length!=5 || vCodigoPostal=="" || isNaN(vCodigoPostal) ) {
- todoBien=false;
- document.getElementById("codigoPostal").className = "textMal";
- }
- else{
- document.getElementById("codigoPostal").className = "textBien";
- }
-
-
- //Provincia:
- var vProvincia = document.getElementById("provincia").selectedIndex;
- if( vProvincia == null || vProvincia == 0 ) {
- todoBien=false;
- document.getElementById("provincia").className = "textMal";
- }
- else{
- document.getElementById("provincia").className = "textBien";
- }
 
 
  //Si no ha habido ni un solo error, se ejecuta la siguiente funcion que se encarga de mostrar el formulario de los datos personales:

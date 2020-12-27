@@ -31,7 +31,7 @@ body{
     max-width: 1000px;
     margin: auto;
     padding: 20px;
-    background: white;
+    background: #DCDCDC;
     margin-top:15px;
 
 
@@ -52,10 +52,12 @@ body{
     font-weight: 300;
     margin-bottom: 20px;
 
+
 }
 .container-all .title{
     font-size: 30px;
     margin-bottom: 20px;
+    color: GOLDENROD;
 }
 /*-----------------HEADER-------------*/
 .logo {
